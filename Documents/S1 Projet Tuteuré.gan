@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-09-16" view-index="0" gantt-divider-location="492" resource-divider-location="300" version="2.8.10" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-09-16" view-index="0" gantt-divider-location="492" resource-divider-location="300" version="2.8.10" locale="fr">
     <description/>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nom" width="210" order="0"/>
         <field id="tpd4" name="Date de début" width="66" order="1"/>
         <field id="tpd5" name="Date de fin" width="65" order="2"/>
         <field id="tpd13" name="Ressources" width="147" order="3"/>
-        <option id="taskLabelLeft" value=""/>
         <option id="taskLabelRight" value="name"/>
         <option id="color.recent"><![CDATA[#66ccff #ff0000]]></option>
     </view>
@@ -54,9 +53,9 @@
             <task id="21" name="Mise en forme" color="#8cb6ce" meeting="false" start="2019-10-24" duration="12" complete="0" thirdDate="2019-09-23" thirdDate-constraint="0" expand="true"/>
             <task id="36" name="Micro-Trottoir" color="#8cb6ce" meeting="false" start="2019-10-18" duration="26" complete="0" thirdDate="2019-10-18" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="26" name="Post-Production" color="#000000" meeting="false" start="2019-11-22" duration="16" complete="0" thirdDate="2019-11-22" thirdDate-constraint="0" expand="true">
+        <task id="26" name="Post-Production" color="#000000" meeting="false" start="2019-11-15" duration="21" complete="0" thirdDate="2019-11-22" thirdDate-constraint="0" expand="true">
             <task id="27" name="Déboggage du site" color="#8cb6ce" meeting="false" start="2019-11-22" duration="11" complete="0" thirdDate="2019-10-14" thirdDate-constraint="0" expand="true"/>
-            <task id="30" name="Création du rapport" color="#8cb6ce" meeting="false" start="2019-11-22" duration="11" complete="0" thirdDate="2019-10-28" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="Création du rapport" color="#8cb6ce" meeting="false" start="2019-11-15" duration="16" complete="0" thirdDate="2019-10-28" thirdDate-constraint="0" expand="true"/>
             <task id="34" name="Préparation de la soutenance" color="#8cb6ce" meeting="false" start="2019-11-22" duration="16" complete="0" thirdDate="2019-10-28" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
