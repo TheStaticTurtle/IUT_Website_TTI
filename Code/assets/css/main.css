@@ -17,11 +17,15 @@ body {
 }
 
 .logo {
-	height: 11vh;
+	position: relative;
+	left:5vw;
+	height: 13vh;
 	/*margin: 0.5%;*/
-	margin-left: 2%;
 }
 
+.active {
+	color: #FFFFFF !important;
+}
 .background-image > img {
 	position: fixed;
 	top: 0px;
@@ -99,7 +103,7 @@ section > div {
 
 .nav-item-big {
 	color:#ffffff;
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 
 .quote-block {
@@ -111,6 +115,15 @@ section > div {
 	height: 90%;
 }
 
+.contact-block {
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+    font-weight: 200;
+	font-size: 2.5em;
+	text-align: center;
+	transform: translateY(10%);
+	height: 57%;
+}
+
 .container2 {
 	width: 100%;
 	padding-right: 15px;
@@ -119,9 +132,13 @@ section > div {
 	margin-left: auto;
 }
 
+.force-center {
+	position: absolute; left: 10; right: 10; text-align: center;
+}
+
 @media (min-width: 576px) {
 	.container2 {
-	 	max-width: 70%;
+	 	max-width: 90%;
 	}
 }
 
@@ -134,15 +151,18 @@ section > div {
 .arrow-wrapper {
 	/*height: 100%;*/
 	width: 100%;
+	position: relative;
+	bottom: -20%;
 }
 
 .arrow-wrapper .arrowimg {
 	/*line-height: 60px;*/
-	position: absolute;
+	position: relative;
 	/*height: 10%;*/
-	bottom: 20vh;
-	right: 47.75%;
-	left: 47.75%;	
+	bottom: 0vh;
+	/*right: 47.75%;*/
+	/*left: 47.75%;	*/
+	width: 5%;
 	cursor: pointer;
 }
 .arrow-wrapper .arrowtext {
@@ -150,7 +170,7 @@ section > div {
 	font-size: 4vh;
 	margin:0;
 	color: #FFF;
-	bottom: 29.5vh;
+	bottom: 75%;
 	left: 20%;
 	right: 20%;
 	text-align: center;

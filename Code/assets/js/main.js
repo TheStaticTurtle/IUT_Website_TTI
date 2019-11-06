@@ -14,8 +14,8 @@ function scrollto(argument) {
 
 window.addEventListener('scroll', function() {
 	var mid = document.getElementsByClassName("background-image")[0];
-	var bg1_off = 1080/3*1.5;
-	var bg2_off = bg1_off+1080/3*2;
+	var bg1_off = 1080*1;
+	var bg2_off = 1080*2;
 	if (document.body.scrollTop > bg1_off || document.documentElement.scrollTop > bg1_off) {
 		$(".background-image img.bg1").removeClass("background-image-transparent");
 		$(".background-image img.bg2").addClass("background-image-transparent");
