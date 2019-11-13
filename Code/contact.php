@@ -48,19 +48,29 @@
 					<div class="col-12 col-md-8 col-lg-6 pb-5 ">
 						<?php if(isset($_POST["email"]) && isset($_POST["message"])) { 
 							$headers = "From:" . $_POST["email"];
-							mail ("tuglersamuel@gmail.com", "[Contact] de ".$_POST["email"] , $_POST["message"], $headers)
-
-						?>
-
-		                        <div class="material-primary rounded-0 ">
-			                        <div class="card-header p-0 ">
-			                            <div class="material-dark text-white text-center py-2">
-			                                <h3><i class="fa fa-envelope"></i> Mail envoyé</h3>
-			                            </div>
+							if(mail ("tuglersamuel@gmail.com", "[Contact] de ".$_POST["email"] , $_POST["message"], $headers)) {
+							?> 
+			                        <div class="material-primary rounded-0 ">
+				                        <div class="card-header p-0 ">
+				                            <div class="material-dark text-white text-center py-2">
+				                                <h3><i class="fa fa-envelope"></i> Mail envoyé</h3>
+				                            </div>
+				                        </div>
 			                        </div>
-		                        </div>
 
-						<?php } else { ?>
+			                <?php } else { ?>
+
+			                        <div class="material-primary rounded-0 ">
+				                        <div class="card-header p-0 ">
+				                            <div class="material-dark text-white text-center py-2">
+				                                <h3><i class="fa fa-envelope"></i> Erreur lors de l'envois</h3>
+				                            </div>
+				                        </div>
+			                        </div>
+						<?php
+								}
+							} else { 
+						?>
 
 		                    <form action="contact.php" method="post">
 		                        <div class="material-primary rounded-0 ">
