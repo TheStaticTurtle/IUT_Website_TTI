@@ -19,16 +19,19 @@ body {
 
 .bg1_image {
 	background-attachment: fixed;
+	background-size: cover;
 	background-image: url(../img/bg1.jpg);
 }
 
 .bg2_image {
 	background-attachment: fixed;
+	background-size: cover;
 	background-image: url(../img/bg2.jpg);
 }
 
 .bg3_image {
 	background-attachment: fixed;
+	background-size: cover;
 	background-image: url(../img/bg3.jpg);
 }
 .contactform{
@@ -77,8 +80,8 @@ body {
 }
 
 .logo {
-	position: relative;
-	left:5vw;
+	/*position: relative;*/
+	/*left:5vw;*/
 	height: 13vh;
 	/*margin: 0.5%;*/
 }
@@ -160,7 +163,8 @@ section > div {
 
 .nav-item-big {
 	color:#ffffff;
-	font-size: 1.7em;
+	font-size: 1.07em;
+	/*font-size: 1.5vw;*/
 }
 
 .quote-block {
@@ -178,7 +182,7 @@ section > div {
 	font-size: 2.5em;
 	text-align: center;
 	/*transform: translateY(10%);*/
-	height: 60%;
+	height: 55%;
 }
 
 .container2 {
@@ -226,7 +230,7 @@ section > div {
 	position: absolute;
 	font-size: 4vh;
 	margin:0;
-	color: #FFF;
+	color: #000;
 	bottom: 75%;
 	left: 20%;
 	right: 20%;
