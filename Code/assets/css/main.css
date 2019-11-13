@@ -14,8 +14,23 @@ body,#navbar-example2 {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+
 }
 
+.bg1_image {
+	background-attachment: fixed;
+	background-image: url(../img/bg1.jpg);
+}
+
+.bg2_image {
+	background-attachment: fixed;
+	background-image: url(../img/bg2.jpg);
+}
+
+.bg3_image {
+	background-attachment: fixed;
+	background-image: url(../img/bg3.jpg);
+}
 .contactform{
 	width:auto;
 	max-width:100%;
@@ -72,19 +87,15 @@ body {
 .active {
 	color: #FFFFFF !important;
 }
-.background-image > img {
+.background-image > img{
 	position: fixed;
-	top: 0px;
+	/*top: 0px;*/
 	left: 0px;
 	width: auto;
-	min-height: 100%;
-	/*min-width: 100%;*/
+	/*min-height: 100%;*/
+	min-width: 100%;
 	z-index: -1;
 
-	/*background-attachment: fixed;*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	-webkit-transition: opacity 0.5s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
 	-o-transition: opacity 0.5s ease-in-out;
