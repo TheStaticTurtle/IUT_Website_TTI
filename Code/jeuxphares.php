@@ -11,8 +11,7 @@
 		<script type="text/javascript" src="assets/js/main.js"></script>
 		<script src="assets/js/main.js"></script>
 	</head>
-	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
-		<img src="assets/img/FondGris.jpg">
+	<body data-spy="scroll" data-target="#navbar-main" style="background: url('assets/img/FondGris.jpg')">
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
@@ -31,7 +30,7 @@
 				<p class="arrowtext" style="color: #fafafa;">
 					Voir plus
 				</p>
-				<img src="assets/img/arrow.svg" class="arrowimg animated bounce">
+				<img src="assets/img/arrowWhite.svg" class="arrowimg animated bounce">
 			</div>
 		</section>
 
