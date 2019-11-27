@@ -33,6 +33,8 @@ $subject = 'Nouvelle demande de contact de ';
             footer {
                 position: absolute;
                 bottom: 0px;
+                left: 0px;
+                right: 0px;
             }
         </style>
     </head>
