@@ -36,7 +36,7 @@
                     <div class="zoomableImage mx-auto d-block" height="200px">
                         <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance">
                         <div class="zoomableImage-container">
-                            <a href="#" data-toggle="modal" data-target="#modalImgSondageConnaisance">Agrandir</a>
+                            <i class="fas fa-compress" data-toggle="modal" data-target="#modalImgSondageConnaisance"></i>
                         </div>
                     </div>
                     <?php
