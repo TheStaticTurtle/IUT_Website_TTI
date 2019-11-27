@@ -8,7 +8,7 @@
                         </button>
                   </div>
                   <div class="modal-body material-primary">
-                        <img src="<?php echo $src; ?>">
+                        <img class="modalImage" src="<?php echo $src; ?>">
                   </div>
             </div>
       </div>

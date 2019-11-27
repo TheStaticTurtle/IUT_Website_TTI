@@ -280,6 +280,9 @@ section > div {
 	}
 }
 
+.modalImage {
+	width: 100%;
+}
 
 .pointer {
 	cursor: pointer;
