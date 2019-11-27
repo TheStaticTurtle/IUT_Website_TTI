@@ -6,7 +6,7 @@ $subject = 'Nouvelle demande de contact de ';
 
 <html lang="fr">
 	<head>
-		<title></title>
+        <title>TakeTwoInteractive - Contact</title>
 		<meta charset="utf-8">
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
