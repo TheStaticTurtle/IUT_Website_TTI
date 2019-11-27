@@ -33,12 +33,7 @@
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <div class="zoomableImage mx-auto d-block" height="200px">
-                        <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance">
-                        <div class="zoomableImage-container">
-                            <i class="fas fa-compress" data-toggle="modal" data-target="#modalImgSondageConnaisance"></i>
-                        </div>
-                    </div>
+                    <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" class="mx-auto d-block" height="200px" data-toggle="modal" data-target="#modalImgSondageConnaisance">
                     <?php
                     $id="modalImgSondageConnaisance";
                     $title="Notre connaissance";
