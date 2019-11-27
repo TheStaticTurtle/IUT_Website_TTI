@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="assets/js/main.js"></script>
 		<script src="assets/js/main.js"></script>
 	</head>
-	<body data-spy="scroll" data-target="#navbar-main" style="background: url('assets/img/FondGris.jpg')">
+	<body data-spy="scroll" data-target="#navbar-main" class="bg_games">
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
