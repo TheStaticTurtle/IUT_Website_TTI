@@ -34,7 +34,7 @@
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" id = "imgSondageConnaisance" class="mx-auto d-block" height="200px">
+                    <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" id = "imgSondageConnaisance" class="pointer mx-auto d-block" height="200px">
                     <?php
                     $id="imgSondageConnaisance";
                     $title="Notre connaissance";

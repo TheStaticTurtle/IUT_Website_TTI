@@ -280,15 +280,6 @@ section > div {
 	}
 }
 
-.zoomableImage {
-	position: relative;
-	text-align: center;
-	color: white;
-}
-
-.zoomableImage-container {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	color: black;
+.pointer {
+	cursor: pointer;
 }

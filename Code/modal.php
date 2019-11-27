@@ -16,7 +16,7 @@
 
 <script>
     $(document).ready(function () {
-        $("#<?php echo $id; ?>").on('click','#<?php echo $id; ?>',function () {
+        $("#<?php echo $id; ?>").on('click',function () {
             $('#modal_<?php echo $id; ?>').modal('show');
         });
     });
