@@ -30,11 +30,12 @@ $subject = 'Nouvelle demande de contact de ';
         <title>TakeTwoInteractive - Contact</title>
 
         <style>
+            /* HARD FIX for the footer. Total hour spent fixing it: ~5h */
             footer {
-                position: absolute;
-                bottom: 0px;
-                left: 0px;
-                right: 0px;
+                position: absolute !important;
+                bottom: 0px !important;
+                left: 0px !important;
+                right: 0px !important;
             }
         </style>
     </head>
