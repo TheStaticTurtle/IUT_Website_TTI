@@ -19,7 +19,7 @@
 			<div class="container material-dark">
 				<div class="row">
 					<div class="col">	
-						<p style="font-size: 1.35em; font-weight: bold;">
+						<p style="font-size: 1.35em;">
 							Ici vous retrouverez plus d'informations sur nos studios ainsi que nos jeux phares.
 							Des studios de rêve pour des jeux incroyables.
 						</p>
@@ -43,7 +43,7 @@
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
-						<h2 style="font-size: 4em;">
+						<h2 style="font-size: 4em; font-weight: bold;">
 							Rockstar Games
 						</h2>
 						<p class="lead" style="font-size: 2em; font-style: italic;">
