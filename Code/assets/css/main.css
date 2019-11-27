@@ -273,4 +273,10 @@ section > div {
 	100% {
 		transform: translateY(0);
 	}
-} 
+}
+
+
+footer {
+	height: 100px;
+	background-color: #222;
+}
