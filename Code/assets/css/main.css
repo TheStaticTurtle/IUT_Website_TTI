@@ -17,6 +17,12 @@ body {
 
 }
 
+.bg_sondage {
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(../img/bg2.jpg);
+}
+
 .bg_games {
 	background-attachment: fixed;
 	background-size: cover;
@@ -169,7 +175,7 @@ section > div {
 
 .nav-item-big {
 	color:#ffffff;
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
 
 .quote-block {
@@ -276,7 +282,26 @@ section > div {
 }
 
 
+/**
+ * Demo Styles
+ */
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
 footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
 	height: 80px;
-	background-color: #222;
 }
