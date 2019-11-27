@@ -122,7 +122,7 @@
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
-						<img src="assets/img/JeuxPhares.jpg"/>
+						<img  class="align-middle" src="assets/img/JeuxPhares.jpg"/>
 						
 					</div>
 					<div class="col col-text">
