@@ -281,15 +281,13 @@ section > div {
 }
 
 
-.modal-dialog {
-	text-align: left; /* you'll likely want this */
-	max-width: 100%;
-	width: auto !important;
-	display: inline-block;
+.modal.modal-wide .modal-dialog {
+	width: 90%;
 }
-.modal{
-	text-align: center;
+.modal-wide .modal-body {
+	overflow-y: auto;
 }
+
 .pointer {
 	cursor: pointer;
 }
