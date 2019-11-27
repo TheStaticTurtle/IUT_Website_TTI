@@ -25,7 +25,7 @@
 
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-12 col-md-8 col-lg-6 pb-5 ">
+					<div class="col-12 col-md-8 col-lg-6">
 						<?php if(isset($_POST["email"]) && isset($_POST["message"])) { 
 							$headers = "From:" . $_POST["email"];
 							if(mail ("tuglersamuel@gmail.com", "[Contact] de ".$_POST["email"] , $_POST["message"], $headers)) {
