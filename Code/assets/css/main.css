@@ -280,6 +280,18 @@ section > div {
 	}
 }
 
+.modal-dialog {
+	position: relative;
+	display: table;
+	overflow: auto;
+	width: auto;
+	min-width: 300px;
+}
+.modal-body { /* Restrict Modal width to 90% */
+	overflow-x: auto !important;
+	max-width: 90vw !important;
+}
+
 .pointer {
 	cursor: pointer;
 }
