@@ -1,4 +1,4 @@
-<div class="modal fade" id="modal_<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="modal_<?php echo $id; ?>" aria-hidden="true" >
+<div class="modal modal-lg fade" id="modal_<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="modal_<?php echo $id; ?>" aria-hidden="true" >
       <div class="modal-dialog modal-dialog-centered rounded-0" role="document" >
             <div class="modal-content rounded-0">
                   <div class="modal-header material-dark rounded-0">
