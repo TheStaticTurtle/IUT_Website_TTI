@@ -46,6 +46,7 @@ $subject = 'Nouvelle demande de contact de ';
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
 				                                <h3><i class="fa fa-envelope"></i> Mail envoyé</h3>
+                                                <?php header('Refresh: 2; URL=index.php'); ?>
 				                            </div>
 				                        </div>
 			                        </div>
