@@ -33,8 +33,7 @@
         </div>
         <div class="row mb-3">
             <div class="col">
-                <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" height="200px">
-                <a href="#" data-toggle="modal" data-target="#modalImgSondageConnaisance">
+                <a href="" data-toggle="modal" data-target="#modalImgSondageConnaisance">
                     <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" height="200px">
                 </a>
                 <?php
