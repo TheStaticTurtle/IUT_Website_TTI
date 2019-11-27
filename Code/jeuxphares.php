@@ -121,7 +121,7 @@
 		<section id="jeuxconnus" class="">
 			<div class="container2 material-dark">
 				<div class="row">
-					<div class="col col-img">
+					<div class="col col-img d-flex flex-wrap align-items-center">
 						<img  class="align-middle" src="assets/img/JeuxPhares.jpg"/>
 						
 					</div>
