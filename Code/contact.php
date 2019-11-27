@@ -103,8 +103,6 @@ $subject = 'Nouvelle demande de contact de ';
 		</section>
 
 
-		<footer class="py-5 bg-dark fixed-bottom">
-            <?php  include("footer.html"); ?>
-		</footer>
+        <?php  include("footer.html"); ?>
 	</body>
 </html>

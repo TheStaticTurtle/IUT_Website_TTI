@@ -32,9 +32,7 @@
             </div>
 		</section>
 
-		<footer class="py-5 bg-dark fixed-bottom">
-            <?php  include("footer.html"); ?>
-		</footer>
+        <?php  include("footer.html"); ?>
 
         <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
