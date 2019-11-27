@@ -18,28 +18,8 @@
 
 	</head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
-		
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-			<div class="container">
-				<a class="navbar-brand" href="/">
-					<img class="logo dml-left" src="assets/img/take2logo.svg">
-				</a>
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
 
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav mx-auto ">
-						<li class="nav-item nav-item-big px-3"><a class="nav-link js-scroll-trigger" href="#">Notre histoire</a></li>
-						<li class="nav-item nav-item-big px-3"><a class="nav-link js-scroll-trigger" href="#">Nos jeux</a></li>
-						<li class="nav-item nav-item-big px-3"><a class="nav-link js-scroll-trigger" href="#">Notre place dans la bourse</a></li>
-						<li class="nav-item nav-item-big px-3"><a class="nav-link js-scroll-trigger" href="#">Notre appréciation</a></li>
-						<li class="nav-item nav-item-big px-3"><a class="nav-link js-scroll-trigger" href="contact.php">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+        <header><?php include("navbar.html"); ?></header>
 
 		<section id="" class="contact-block" style=""><!--Section: Contact v.2-->
 
