@@ -279,12 +279,13 @@ section > div {
 		transform: translateY(0);
 	}
 }
-.modal {
-	padding: 1%;
-}
-.modal-lg {
-	min-width: auto;
-	max-width: fit-content;
+
+
+.modal-dialog {
+	text-align: left; /* you'll likely want this */
+	max-width: 100%;
+	width: auto !important;
+	display: inline-block;
 }
 
 .pointer {
