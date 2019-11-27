@@ -83,7 +83,7 @@ $subject = 'Nouvelle demande de contact de ';
 			                        </div>
 			                        <div class="card-body p-3">
 			                            <div class="form-group">
-			                                <div class="input-group mb-2 h-50">
+			                                <div class="input-group mb-2 ">
 			                                    <div class="input-group-prepend">
 			                                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
 			                                    </div>
@@ -92,7 +92,7 @@ $subject = 'Nouvelle demande de contact de ';
 			                            </div>
 
 			                            <div class="form-group">
-			                                <div class="input-group mb-2">
+			                                <div class="input-group mb-2 h-75">
 			                                    <div class="input-group-prepend">
 			                                        <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
 			                                    </div>
