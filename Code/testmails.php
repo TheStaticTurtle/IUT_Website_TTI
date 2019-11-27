@@ -25,5 +25,4 @@ if ($secure_check == false) {
     } else {
         echo "Sent failed";
     }
-    echo "This email is sent using PHP Mail";
 }

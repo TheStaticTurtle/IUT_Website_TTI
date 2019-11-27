@@ -1,3 +1,9 @@
+<?php
+$to="iut.projtut.taketwointeractive@gmail.com";
+$subject = 'Nouvelle demande de contact de ';
+
+?>
+
 <html lang="fr">
 	<head>
 		<title></title>
@@ -31,10 +37,11 @@
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-8 col-lg-6">
-						<?php if(isset($_POST["email"]) && isset($_POST["message"])) { 
-							$headers = "From:" . $_POST["email"];
-							if(mail ("tuglersamuel@gmail.com", "[Contact] de ".$_POST["email"] , $_POST["message"], $headers)) {
-							?> 
+						<?php
+                            if(isset($_POST["email"]) && isset($_POST["message"])) {
+							    $headers = "From:" . $_POST["email"];
+							    if(mail ($to, $subject . $_POST["email"] , $_POST["message"], $headers)) {
+							        ?>
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
@@ -44,7 +51,6 @@
 			                        </div>
 
 			                <?php } else { ?>
-
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
@@ -52,11 +58,10 @@
 				                            </div>
 				                        </div>
 			                        </div>
-						<?php
-								}
-							} else { 
-						?>
+						    <?php }
 
+                            } else {
+						    ?>
 		                    <form action="contact.php" method="post" style="margin-bottom: 0px;">
 		                        <div class="material-primary rounded-0 ">
 			                        <div class="card-header p-0 ">
