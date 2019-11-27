@@ -52,7 +52,7 @@
 							} else { 
 						?>
 
-		                    <form action="contact.php" method="post">
+		                    <form action="contact.php" method="post" style="margin-bottom: 0px;">
 		                        <div class="material-primary rounded-0 ">
 			                        <div class="card-header p-0 ">
 			                            <div class="material-dark text-white text-center py-2">
