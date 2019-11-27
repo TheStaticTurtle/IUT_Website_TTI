@@ -43,7 +43,7 @@
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
-						<h2 style="font-size: 4em; font-weight: bold;">
+						<h2 style="font-size: 4em;">
 							Rockstar Games
 						</h2>
 						<p class="lead" style="font-size: 2em; font-style: italic;">
