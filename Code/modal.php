@@ -1,4 +1,4 @@
-<div class="modal fade" id="<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="<?php echo $id; ?>" aria-hidden="true">
+<div class="modal fade" id="modal_<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="modal_<?php echo $id; ?>" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -13,3 +13,11 @@
     </div>
   </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $("#<?php echo $id; ?>").on('click','#<?php echo $id; ?>',function () {
+            $('#modal_<?php echo $id; ?>').modal('show');
+        });
+    });
+</script>
