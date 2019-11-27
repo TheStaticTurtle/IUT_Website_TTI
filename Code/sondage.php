@@ -11,6 +11,16 @@
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg_sondage">
 		<header> <?php include("navbar.html"); ?> </header>
 
+        <section id="theinsperationalquote" class="quote-block" style="">
+            <div class="container material-light">
+                <div class="row">
+                    <div class="col">
+                        <p style="font-size: 0.8em;">Les appréciations du public</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 		<section>
             <div class="container2 material-light">
                 <h2>La connaissance de l'entreprise chez le public</h2>
