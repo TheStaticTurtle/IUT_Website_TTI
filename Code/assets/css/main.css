@@ -287,7 +287,9 @@ section > div {
 	width: auto !important;
 	display: inline-block;
 }
-
+.modal{
+	text-align: center;
+}
 .pointer {
 	cursor: pointer;
 }
