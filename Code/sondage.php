@@ -60,6 +60,8 @@
                 <img src="assets/img/SONDAGE_5.jpg" alt="Résultat sondage jeux GTA" class="mx-auto d-block mb-3">
                 <p style="text-align: justify">
                     On peut ici très clairement voir que le dernier épisode en date, Grand Theft Auto V, est le plus populaire avec un peu plus de 70% des gens qui ont déjà joué à un jeu Grand Theft Auto y ayant joué et donc 60% des participants totaux.
+                    Cela peut s'expliquer très facilement car cet épisode a réalisé de nombreux records de vente comme celui du meilleur démarrage de jeu vidéo au monde (<a href="http://www.vgchartz.com/article/251317/grand-theft-auto-v-smashes-global-week-one-sales-record/">source</a>).
+                    A ce jour, ce jeu est le troisième jeu le plus vendu au monde avec plus de 115 milions de copies vendues derrière Minecraft et Tetris ayant respectivement 176 et 170 milions de copies vendues (<a href="https://www.jeuxactu.com/take-two-voici-les-ventes-de-borderlands-3-gta-v-et-red-dead-redemptio-120093.htm">source</a>).
                 </p>
             </div>
         </section>
