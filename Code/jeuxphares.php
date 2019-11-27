@@ -127,9 +127,6 @@
 			</div>
 		</section>
 
-
-		<footer class="py-5 bg-dark">
-			<?php include("footer.html"); ?> 
-		</footer>
+		<?php include("footer.html"); ?> 
 	</body>
 </html>
