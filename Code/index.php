@@ -17,7 +17,7 @@
 
         <title>TakeTwoInteractive - Acceuil</title>
 	</head>
-	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
+	<body data-spy="scroll" data-target="#navbar-main" class="background-image-auto background-image bg3_image">
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
