@@ -43,7 +43,7 @@
                     ?>
                 </div>
                 <div class="col">
-                    <img src="assets/img/SONDAGE_2.png" alt="Résultat sondage marques" id = "resultsMarques" class="mx-auto d-block" height="200px">
+                    <img src="assets/img/SONDAGE_2.png" alt="Résultat sondage marques" id = "resultsMarques" class="pointer mx-auto d-block" height="200px">
                     <?php
                     $id="resultsMarques";
                     $title="Notre place dans le marcher";
@@ -60,20 +60,20 @@
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <img src="assets/img/SONDAGE_3.jpg" alt="Résultat sondage joué jeu Take-Two"  id = "havePlayedTKG"  class="mx-auto d-block mb-1" height="175px">
+                    <img src="assets/img/SONDAGE_3.jpg" alt="Résultat sondage joué jeu Take-Two"  id = "havePlayedTKG"  class="pointer mx-auto d-block mb-1" height="175px">
                     <?php
                     $id="havePlayedTKG";
                     $title="Les gens on jouer a nos jeux";
-                    $src="assets/img/SONDAGE_3.png";
+                    $src="assets/img/SONDAGE_3.jpg";
                     include("modal.php");
                     ?>
                 </div>
                 <div class="col">
-                    <img src="assets/img/SONDAGE_4.jpg" alt="Résultat sondage connaissance GTA" id = "GTAknown"  class="mx-auto d-block" height="175px">
+                    <img src="assets/img/SONDAGE_4.jpg" alt="Résultat sondage connaissance GTA" id = "GTAknown"  class="pointer mx-auto d-block" height="175px">
                     <?php
                     $id="GTAknown";
                     $title="Les gens connaisses GTA?";
-                    $src="assets/img/SONDAGE_4.png";
+                    $src="assets/img/SONDAGE_4.jpg";
                     include("modal.php");
                     ?>
                 </div>
@@ -92,11 +92,11 @@
             <p style="text-align: justify">
                 Nous avons également demandé aux participant si ils avaient déjà joué à un jeu de la license « Grand Theft Auto » et 84% des gens ayant répondu au sondage ont répondu oui. On a également demandé à quel(s) épisode(s) ils avaient joué :
             </p>
-            <img src="assets/img/SONDAGE_5.jpg" alt="Résultat sondage jeux GTA"  id = "whichGTA"  class="mx-auto d-block mb-3">
+            <img src="assets/img/SONDAGE_5.jpg" alt="Résultat sondage jeux GTA"  id = "whichGTA"  class="pointer mx-auto d-block mb-3">
             <?php
             $id="whichGTA";
             $title="Quels GTA sont-ils connus";
-            $src="assets/img/SONDAGE_5.png";
+            $src="assets/img/SONDAGE_5.jpg";
             include("modal.php");
             ?>
             <p style="text-align: justify">
