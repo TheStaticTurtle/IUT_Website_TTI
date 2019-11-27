@@ -43,10 +43,10 @@ $subject = 'Nouvelle demande de contact de ';
 
         <header><?php include("navbar.html"); ?></header>
 
-		<section id="" class="" style="">
+		<section id="" class="" style="margin: 0px;">
 
 			<div class="container">
-				<div class="row h-100 justify-content-center">
+				<div class="row justify-content-center">
 					<div class="col-12 col-md-8 col-lg-6">
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
