@@ -38,7 +38,7 @@
                 </a>
                 <?php
                 $id="modalImgSondageConnaisance";
-                $title="Notre connaissance";
+                $title="Notre étendue";
                 $src="assets/img/SONDAGE_1.png";
                 include("modal.php");
                 ?>
