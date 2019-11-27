@@ -29,6 +29,12 @@ $subject = 'Nouvelle demande de contact de ';
 
         <title>TakeTwoInteractive - Contact</title>
 
+        <style>
+            footer {
+                position: absolute;
+                bottom: 0px;
+            }
+        </style>
     </head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
 
