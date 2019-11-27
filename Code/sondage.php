@@ -32,7 +32,7 @@
             </div>
 		</section>
 
-		<footer class="py-5 bg-dark">
+		<footer class="py-5 bg-dark fixed-bottom">
             <?php  include("footer.html"); ?>
 		</footer>
 
