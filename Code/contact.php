@@ -34,7 +34,7 @@ $subject = 'Nouvelle demande de contact de ';
 
         <header><?php include("navbar.html"); ?></header>
 
-		<section id="" class="" style="padding: 0px; margin: 0px;">
+		<section id="" class="" style="padding: 0px; margin: 0px; position: absolute; top: 0px; left: 0px;">
 
 			<div class="container">
 				<div class="row h-100 justify-content-center">
