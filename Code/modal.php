@@ -1,7 +1,7 @@
 <div class="modal fade" id="modal_<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="modal_<?php echo $id; ?>" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content material-primary rounded-0">
+      <div class="modal-header material-dark p-0">
         <h5 class="modal-title" id="exampleModalCenterTitle"><?php echo $title; ?></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
