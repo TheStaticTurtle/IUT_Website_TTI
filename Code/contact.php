@@ -38,7 +38,7 @@ $subject = 'Nouvelle demande de contact de ';
 
 			<div class="container">
 				<div class="row h-100 justify-content-center">
-					<div class="col-12 col-md-8 col-lg-6 my-auto">
+					<div class="col-12 col-md-8 col-lg-6">
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
 							    $headers = "From:" . $_POST["email"];
