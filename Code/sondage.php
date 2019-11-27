@@ -22,7 +22,15 @@
                 </div>
                 <div class="row mb-3 mx-auto">
                     <div class="col">
-                        <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" height="200px">
+                        <a href="#" data-toggle="modal" data-target="#modalImgSondageConnaisance">
+                            <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance" height="200px">
+                        </a>
+                        <?php
+                        $id="modalImgSondageConnaisance";
+                        $title="Notre connaissance";
+                        $src="assets/img/SONDAGE_1.png";
+                        include("modal.php");
+                        ?>
                     </div>
                     <div class="col">
                         <img src="assets/img/SONDAGE_2.png" alt="Résultat sondage marques" height="200px">
