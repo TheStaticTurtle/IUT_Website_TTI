@@ -111,7 +111,7 @@
 							Ils possèdent plusieurs studios : Hangar 13, Ghost Story Games (anciennement Irrationnal Games), Visual Concepts...
 						</p>
 					</div>
-					<div class="col col-img">
+					<div class="col col-img d-flex flex-wrap align-items-center">
 						<img src="assets/img/2KGamesLogo.png"/>
 					</div>
 				</div>
