@@ -282,11 +282,15 @@ section > div {
 
 
 .zooambleImage > img {
-	height: 100%;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	color: whitesmoke;
 }
 .zooambleImage > a {
 	position: relative;
 	top: 0px;
 	right: 0px;
-	color: whitesmoke;
+	color: black;
 }
