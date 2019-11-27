@@ -280,13 +280,13 @@ section > div {
 	}
 }
 
-.zooambleImage {
+.zoomableImage {
 	position: relative;
 	text-align: center;
 	color: white;
 }
 
-.zooambleImage > div {
+.zoomableImage-container {
 	position: absolute;
 	top: 8px;
 	right: 16px;
