@@ -280,17 +280,14 @@ section > div {
 	}
 }
 
-
-.zooambleImage > img {
+.zooambleImage {
 	position: relative;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	color: whitesmoke;
+	text-align: center;
+	color: white;
 }
-.zooambleImage > a {
-	position: relative;
-	top: 0px;
-	right: 0px;
-	color: black;
+
+.zooambleImage > div {
+	position: absolute;
+	top: 8px;
+	right: 16px;
 }

@@ -35,7 +35,9 @@
                 <div class="col">
                     <div class="zooambleImage mx-auto d-block" height="200px"">
                         <img src="assets/img/SONDAGE_1.png" alt="Résultat sondage connaissance">
-                        <a href="#" data-toggle="modal" data-target="#modalImgSondageConnaisance"></a>
+                        <div>
+                            <a href="#" data-toggle="modal" data-target="#modalImgSondageConnaisance"></a>
+                        </div>
                     </div>
                     <?php
                     $id="modalImgSondageConnaisance";
