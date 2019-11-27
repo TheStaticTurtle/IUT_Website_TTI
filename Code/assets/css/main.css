@@ -279,17 +279,12 @@ section > div {
 		transform: translateY(0);
 	}
 }
-
-.modal-dialog {
-	position: relative;
-	display: table;
-	overflow: auto;
-	width: auto;
-	min-width: 300px;
+.modal {
+	padding: 1%;
 }
-.modal-body { /* Restrict Modal width to 90% */
-	overflow-x: auto !important;
-	max-width: 90vw !important;
+.modal-lg {
+	min-width: auto;
+	max-width: fit-content;
 }
 
 .pointer {
