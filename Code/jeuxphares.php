@@ -46,10 +46,10 @@
 							Rockstar Games
 						</h2>
 						<p class="lead" style="font-size: 2em; font-style: italic;">
-							Grand Theft Auto, Red Dead Redemption...
+							NBA 2K, Borderlands...
 						</p>
 						<p>
-							Développeur et à la fois éditeur, Rockstar Games est un très grand nom dans l'industrie du jeu vidéo.
+							Éditeur de jeux vidéos, 2K Games s'est lui aussi imposé dans l'industrie du jeu vidéo.
 							<br>
 							Ils ont été rachetés en 1998 par Take-Two Interactive, leur siège social étant situé à New York aux États-Unis.
 							<br>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col col-text">
 						<h2 style="font-size: 4em; font-weight: bold;">
-							Les créateurs de Rockstar Games
+							2K Games
 						</h2>
 						<p style="font-size: 1.29em; text-align: justify;">
 							Sam Houser (à gauche de la photo), âgé de 48 ans, frère de Dan Houser, est co-président et co-fondateur de Rockstar Games.
