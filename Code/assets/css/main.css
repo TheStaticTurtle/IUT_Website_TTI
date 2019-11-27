@@ -279,3 +279,14 @@ section > div {
 		transform: translateY(0);
 	}
 }
+
+
+.zooambleImage > img {
+	height: 100%;
+}
+.zooambleImage > a {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	color: whitesmoke;
+}
