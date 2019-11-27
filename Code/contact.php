@@ -29,16 +29,25 @@ $subject = 'Nouvelle demande de contact de ';
 
         <title>TakeTwoInteractive - Contact</title>
 
+        <style>
+            /* HARD FIX for the footer. Total hour spent fixing it: ~5h */
+            footer {
+                position: absolute !important;
+                bottom: 0px !important;
+                left: 0px !important;
+                right: 0px !important;
+            }
+        </style>
     </head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
 
         <header><?php include("navbar.html"); ?></header>
 
-		<section id="" class="" style="padding: 0px; margin: 0px;">
+		<section id="" class="" style="margin: 0px;">
 
 			<div class="container">
-				<div class="row h-100 justify-content-center">
-					<div class="col-12 col-md-8 col-lg-6 my-auto">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-8 col-lg">
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
 							    $headers = "From:" . $_POST["email"];
@@ -74,7 +83,7 @@ $subject = 'Nouvelle demande de contact de ';
 			                        </div>
 			                        <div class="card-body p-3">
 			                            <div class="form-group">
-			                                <div class="input-group mb-2">
+			                                <div class="input-group mb-2 ">
 			                                    <div class="input-group-prepend">
 			                                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
 			                                    </div>
@@ -83,7 +92,7 @@ $subject = 'Nouvelle demande de contact de ';
 			                            </div>
 
 			                            <div class="form-group">
-			                                <div class="input-group mb-2">
+			                                <div class="input-group mb-2 h-75">
 			                                    <div class="input-group-prepend">
 			                                        <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
 			                                    </div>
