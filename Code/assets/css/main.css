@@ -17,6 +17,12 @@ body {
 
 }
 
+.bg_sondage {
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(../img/bg2.jpg);
+}
+
 .bg_games {
 	background-attachment: fixed;
 	background-size: cover;
