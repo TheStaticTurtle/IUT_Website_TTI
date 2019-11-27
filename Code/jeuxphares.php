@@ -118,7 +118,7 @@
 			</div>
 		</section>
 
-		<section id="jeuxconnus" class="">
+		<section id="jeuxphares" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
@@ -126,16 +126,14 @@
 					</div>
 					<div class="col col-text">
 						<h2 style="font-size: 4em; font-weight: bold;">
-							Les créateurs de Rockstar Games
+							Les principales franchises
 						</h2>
 						<p style="font-size: 1.29em; text-align: justify;">
-							Sam Houser (à gauche de la photo), âgé de 48 ans, frère de Dan Houser, est co-président et co-fondateur de Rockstar Games.
+							La licence Grand Theft Auto a permis à Rockstar de s'approprier un grand renom dans l'univers vidéoludique. GTA V, jeu d'action-aventure en monde ouvert, est le jeu le plus vendu de Take-Two Interactive, est aussi un succès critique dès sa sortie. Il s'est crée une communauté au fur et à mesure des années grâce à son multijoueur très popularisé.
 							<br>
-							Dan Houser (à droite de la photo), âgé de 45 ans, frère de Sam Houser, est co-président et co-fondateur de Rockstar Games.
+							Red Dead Redemption est un jeu d'action-aventure en monde ouvert dans une ambiance "western", le premier opus s'est vendu
 							<br>
-							Sam Houser a été producteur exécutif sur beaucoup de jeux développés par Rockstar, dont les Grand Theft Auto (GTA).
-							<br>
-							Quand à Dan Houser, il a été scénariste et producteur sur plein de jeux Rockstar, néanmoins il a produit les GTA entre 2001 et 2006 (GTA III à GTA Vice City Stories).
+							
 							<br>
 							Les deux frères ont quand même prêté leur voix à quelques jeux. Par exemple :
 							<br>
