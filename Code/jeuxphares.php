@@ -128,7 +128,7 @@
 		</section>
 
 
-		<footer class="py-5 bg-dark fixed-bottom">
+		<footer class="py-5 bg-dark">
 			<?php include("footer.html"); ?> 
 		</footer>
 	</body>
