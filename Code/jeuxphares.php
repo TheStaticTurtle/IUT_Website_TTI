@@ -46,12 +46,12 @@
 							Rockstar Games
 						</h2>
 						<p class="lead" style="font-size: 2em; font-style: italic;">
-							NBA 2K, Borderlands...
+							Grand Theft Auto, Red Dead Redemption...
 						</p>
-						<p>
-							Éditeur de jeux vidéos, 2K Games s'est lui aussi imposé dans l'industrie du jeu vidéo.
+						<p style="font-size: 1.65em; text-align: justify;">
+							Éditeur de jeux vidéos, Rockstar Games est un très grand nom dans l'industrie du jeu vidéo.
 							<br>
-							Ils ont été rachetés en 1998 par Take-Two Interactive, leur siège social étant situé à New York aux États-Unis.
+							Ils ont été rachetés en 1998 par Take-Two Interactive, leur siège social  situé à New York aux États-Unis.
 							<br>
 							Ils possèdent plusieurs studios à travers le monde : Rockstar London, Rockstar North (Écosse), Rockstar India...
 						</p>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col col-text">
 						<h2 style="font-size: 4em; font-weight: bold;">
-							2K Games
+							Les créateurs de Rockstar Games
 						</h2>
 						<p style="font-size: 1.29em; text-align: justify;">
 							Sam Houser (à gauche de la photo), âgé de 48 ans, frère de Dan Houser, est co-président et co-fondateur de Rockstar Games.
@@ -92,18 +92,27 @@
 				</div>
 			</div>
 		</section>
-		<section id="thune" class="">
+
+		<section id="rockstar" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
-						<h2>Notre empire boursier</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-						<p>
-							Suspendisse tincidunt, enim vel efficitur blandit, tortor velit condimentum turpis, bibendum congue sapien quam at metus. Aenean in elit ut lorem vulputate gravida ac eu ante. Suspendisse bibendum diam eget commodo maximus. Nullam egestas, risus et efficitur ultrices, ligula nunc tincidunt leo, aliquam efficitur sem nisi sit amet lectus.
+						<h2 style="font-size: 4em; font-weight: bold;">
+							2K Games
+						</h2>
+						<p class="lead" style="font-size: 2em; font-style: italic;">
+							NBA 2K, Borderlands, Mafia...
+						</p>
+						<p style="font-size: 1.29em; text-align: justify;">
+							Éditeur de jeux vidéos, 2K Games s'est lui aussi imposé dans l'industrie du jeu vidéo avec des licences célèbres comme NBA 2K ou encore Borderlands développé par Gearbox.
+							<br>
+							Filiale de Take-Two Interactive, leur siège social étant situé à Novato dans l'état de la Californie aux États-Unis.
+							<br>
+							Ils possèdent plusieurs studios : Hangar 13, Ghost Story Games (anciennement Irrationnal Games), Visual Concepts...
 						</p>
 					</div>
 					<div class="col col-img">
-						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
+						<img src="assets/img/2KGamesLogo.png"/>
 					</div>
 				</div>
 			</div>
