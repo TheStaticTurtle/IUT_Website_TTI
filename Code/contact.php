@@ -1,3 +1,9 @@
+<?php
+$to="iut.projtut.taketwointeractive@gmail.com";
+$subject = 'Nouvelle demande de contact de ';
+
+?>
+
 <html lang="fr">
 	<head>
 		<title></title>
@@ -8,12 +14,17 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
+        <style>
+            div {
+                padding: 0px;
+            }
+        </style>
 		<script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<script src="assets/js/main.js"></script>
 
 	</head>
@@ -25,21 +36,22 @@
 
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-12 col-md-8 col-lg-6 pb-5 ">
-						<?php if(isset($_POST["email"]) && isset($_POST["message"])) { 
-							$headers = "From:" . $_POST["email"];
-							if(mail ("tuglersamuel@gmail.com", "[Contact] de ".$_POST["email"] , $_POST["message"], $headers)) {
-							?> 
+					<div class="col-12 col-md-8 col-lg-6">
+						<?php
+                            if(isset($_POST["email"]) && isset($_POST["message"])) {
+							    $headers = "From:" . $_POST["email"];
+							    if(mail ($to, $subject . $_POST["email"] , $_POST["message"], $headers)) {
+							        ?>
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
 				                                <h3><i class="fa fa-envelope"></i> Mail envoyé</h3>
+                                                <?php header('Refresh: 2; URL=index.php'); ?>
 				                            </div>
 				                        </div>
 			                        </div>
 
 			                <?php } else { ?>
-
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
@@ -47,12 +59,11 @@
 				                            </div>
 				                        </div>
 			                        </div>
-						<?php
-								}
-							} else { 
-						?>
+						    <?php }
 
-		                    <form action="contact.php" method="post">
+                            } else {
+						    ?>
+		                    <form action="contact.php" method="post" style="margin-bottom: 0px;">
 		                        <div class="material-primary rounded-0 ">
 			                        <div class="card-header p-0 ">
 			                            <div class="material-dark text-white text-center py-2">
@@ -93,9 +104,7 @@
 
 
 		<footer class="py-5 bg-dark">
-			<div class="container">
-				<p class="m-0 text-center text-white">Copyright © Your Website 2019</p>
-			</div>
+            <?php  include("footer.html"); ?>
 		</footer>
 	</body>
 </html>

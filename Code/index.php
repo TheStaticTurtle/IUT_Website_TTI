@@ -106,9 +106,7 @@
 
 
 		<footer class="py-5 bg-dark">
-			<div class="container">
-				<p class="m-0 text-center text-white">Site réalisé par Samuel Tugler, Wassim Chalabi, Jérémy Egremy et Lucas Mathieu.</p>
-			</div>
+            <?php  include("footer.html"); ?>
 		</footer>
 	</body>
 </html>

@@ -82,7 +82,7 @@ body {
 .logo {
 	/*position: relative;*/
 	/*left:5vw;*/
-	height: 13vh;
+	height: 100px;
 	/*margin: 0.5%;*/
 }
 
@@ -163,12 +163,10 @@ section > div {
 
 .nav-item-big {
 	color:#ffffff;
-	font-size: 1.07em;
-	/*font-size: 1.5vw;*/
+	font-size: 1.3em;
 }
 
 .quote-block {
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
     font-weight: 200;
 	font-size: 2.5em;
 	text-align: center;
@@ -177,7 +175,6 @@ section > div {
 }
 
 .contact-block {
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
     font-weight: 200;
 	font-size: 2.5em;
 	text-align: center;
