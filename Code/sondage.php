@@ -6,7 +6,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	</head>
+        <title>TakeTwoInteractive - Nos avis</title>
+    </head>
 
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
 		<header> <?php include("navbar.html"); ?> </header>

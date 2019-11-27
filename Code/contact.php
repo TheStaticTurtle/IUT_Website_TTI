@@ -27,7 +27,9 @@ $subject = 'Nouvelle demande de contact de ';
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<script src="assets/js/main.js"></script>
 
-	</head>
+        <title>TakeTwoInteractive - Contact</title>
+
+    </head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
 
         <header><?php include("navbar.html"); ?></header>
