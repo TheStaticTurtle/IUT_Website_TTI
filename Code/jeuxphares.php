@@ -127,7 +127,7 @@
 					</div>
 					<div class="col col-text">
 						<h2 style="font-size: 4em; font-weight: bold;">
-							Les créateurs de Rockstar Games
+							Les blockbusters de Take-Two
 						</h2>
 						<p style="font-size: 1.2em; text-align: justify;">
 							La licence Grand Theft Auto a permis à Rockstar de s'approprier un grand renom dans l'univers vidéoludique. GTA V, jeu d'action-aventure en monde ouvert dans une ville fictive inspirée de villes "réelles", est le jeu le plus vendu de Take-Two Interactive et est aussi un succès critique dès sa sortie. Il s'est crée une communauté au fur et à mesure des années grâce à son multijoueur très popularisé.
