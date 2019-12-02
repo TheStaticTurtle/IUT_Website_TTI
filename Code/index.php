@@ -39,67 +39,48 @@
 		<header class="margin" id="pagestart">
 		</header>
 
-		<section id="games" class="">
+		<section id="taketwo" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
-						<h2>Nos jeux phares</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-						<p>
-							Suspendisse tincidunt, enim vel efficitur blandit, tortor velit condimentum turpis, bibendum congue sapien quam at metus. Aenean in elit ut lorem vulputate gravida ac eu ante. Suspendisse bibendum diam eget commodo maximus. Nullam egestas, risus et efficitur ultrices, ligula nunc tincidunt leo, aliquam efficitur sem nisi sit amet lectus.
+						<h2>Take-Two Interactive</h2>
+						<p class="lead">
+							Un poids lourd dans l'industrie du jeu vidéo.
 						</p>
 					</div>
 					<div class="col col-img">
-						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
+						<img src="assets/img/Take-Two-eco.png"/>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="creators" class="">
+		<section id="createur" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
-						<img src="assets/img/Ryan-Brant-300x300.jpg"/>
+						<img src="assets/img/RyanBrant.jpg"/>
 					</div>
 					<div class="col col-text">	
-						<h2>Le créateur</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos. Suspendisse tincidunt, enim vel efficitur blandit, tortor velit condimentum turpis, bibendum congue sapien quam at metus. Aenean in elit ut lorem vulputate gravida ac eu ante. Suspendisse bibendum diam eget commodo maximus. Nullam egestas, risus et efficitur ultrices, ligula nunc tincidunt leo, aliquam efficitur sem nisi sit amet lectus. 
-						</p>					
+						<h2>Ryan Brant</h2>
+						<p class="lead">
+							Le fondateur de Take-Two Interactive.
+						</p>				
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="thune" class="">
+		<section id="empire" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
-						<h2>Notre empire boursier</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-						<p>
-							Suspendisse tincidunt, enim vel efficitur blandit, tortor velit condimentum turpis, bibendum congue sapien quam at metus. Aenean in elit ut lorem vulputate gravida ac eu ante. Suspendisse bibendum diam eget commodo maximus. Nullam egestas, risus et efficitur ultrices, ligula nunc tincidunt leo, aliquam efficitur sem nisi sit amet lectus.
+						<h2>Un empire boursier</h2>
+						<p class="lead">
+							Une domination logique.
 						</p>
 					</div>
 					<div class="col col-img">
 						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="stats" class="">
-			<div class="container2 material-dark">
-				<div class="row">
-					<div class="col col-img">
-						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
-					</div>
-					<div class="col col-text">	
-						<h2>Nos avis</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-						<p>
-							Suspendisse tincidunt, enim vel efficitur blandit, tortor velit condimentum turpis, bibendum congue sapien quam at metus. Aenean in elit ut lorem vulputate gravida ac eu ante. Suspendisse bibendum diam eget commodo maximus. Nullam egestas, risus et efficitur ultrices, ligula nunc tincidunt leo, aliquam efficitur sem nisi sit amet lectus.
-						</p>					
 					</div>
 				</div>
 			</div>
