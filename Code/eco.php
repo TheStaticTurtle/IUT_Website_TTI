@@ -45,7 +45,7 @@
 					<div class="col col-text">	
 						<h2>L'entreprise</h2>
 						<p class="lead">
-							L’entreprise Take-Two Interactive est cotée à la bourse de New-York (TTWO), c’est une Limited Liability Company(LLC) ce qui est l'équivalent d’une Société À Responsabilité Limitée(SARL) en France. Ce type d’entreprise bénéficie de quelques avantages comme : 
+							L’entreprise Take-Two Interactive est cotée à la bourse de New-York, c’est une Limited Liability Company(LLC) ce qui est l'équivalent d’une Société À Responsabilité Limitée(SARL) en France. Ce type d’entreprise bénéficie de quelques avantages comme : 
 						
 							<ul>
 								<li>le choix de son éligibilité à l’imposition,</li>
