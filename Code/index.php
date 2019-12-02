@@ -23,7 +23,7 @@
 				<div class="row">
 					<div class="col">	
 						<p style="font-size: 1.3em;">
-							Take-Two Interactive Software, Inc. est un important développeur, éditeur et distributeur de jeux vidéo.
+							Take-Two Interactive est un important développeur, éditeur et distributeur de jeux vidéo.
 						</p>
 					</div>
 				</div>
