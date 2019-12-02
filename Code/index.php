@@ -1,6 +1,6 @@
 <html lang="fr">
 	<head>
-        <title>TakeTwoInteractive</title>
+        <title>TakeTwoInteractive - Acceuil</title>
 		<meta charset="utf-8">
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
@@ -14,8 +14,6 @@
 		<script type="text/javascript" src="assets/js/main.js"></script>
 
 		<script src="assets/js/main.js"></script>
-
-        <title>TakeTwoInteractive - Acceuil</title>
 	</head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image-auto background-image bg3_image">
 		<header> <?php include("navbar.html"); ?> </header>
