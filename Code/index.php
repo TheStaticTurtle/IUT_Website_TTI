@@ -19,10 +19,12 @@
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
-			<div class="container material-light">
+			<div class="container material-dark">
 				<div class="row">
 					<div class="col">	
-						<p style="font-size: 0.8em;">Take-Two Interactive Software, Inc. est un important développeur, éditeur et distributeur de jeux vidéo.</p>
+						<p style="font-size: 1.3em;">
+							Take-Two Interactive Software, Inc. est un important développeur, éditeur et distributeur de jeux vidéo.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -38,7 +40,7 @@
 		</header>
 
 		<section id="games" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>Nos jeux phares</h2>
@@ -55,7 +57,7 @@
 		</section>
 
 		<section id="creators" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
 						<img src="assets/img/Ryan-Brant-300x300.jpg"/>
@@ -70,7 +72,7 @@
 			</div>
 		</section>
 		<section id="thune" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>Notre empire boursier</h2>
@@ -87,7 +89,7 @@
 		</section>
 
 		<section id="stats" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
 						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
@@ -103,6 +105,6 @@
 			</div>
 		</section>
 
-        <?php  include("footer.html"); ?>
+        <?php include("footer.html"); ?>
 	</body>
 </html>
