@@ -6,13 +6,12 @@ $subject = 'Nouvelle demande de contact de ';
 
 <html lang="fr">
 	<head>
-        <title>TakeTwoInteractive - Contact</title>
+        <title>Take-Two Interactive | Contact</title>
 		<meta charset="utf-8">
-
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <style>
             div {
                 padding: 0px;
@@ -22,10 +21,7 @@ $subject = 'Nouvelle demande de contact de ';
 		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
-
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-        <title>TakeTwoInteractive - Contact</title>
 
         <style>
             /* HARD FIX for the footer. Total hour spent fixing it: ~7h */

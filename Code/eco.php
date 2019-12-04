@@ -1,30 +1,24 @@
 <html lang="fr">
 	<head>
-		<title></title>
+        <title>Take-Two Interactive | Économie</title>
 		<meta charset="utf-8">
-
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
-
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-
 		<script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
-
 		<script src="assets/js/main.js"></script>
-
-        <title>TakeTwoInteractive - Acceuil</title>
 	</head>
 	<body data-spy="scroll" data-target="#navbar-main" class="background-image-auto bg_eco">
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
-			<div class="container material-light">
+			<div class="container material-dark">
 				<div class="row">
 					<div class="col">	
-						<p style="font-size: 0.8em;">Ici vous trouverez plus d'informations sur l’entreprise Take-Two Interactive d’un point de vue économique.</p>
+						<p style="font-size: 1.30em;">Ici vous trouverez plus d'informations sur l’entreprise qu'est Take-Two Interactive d’un point de vue économique.</p>
 					</div>
 				</div>
 			</div>
@@ -40,7 +34,7 @@
 		</header>
 
 		<section id="games" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>L'entreprise</h2>
@@ -68,7 +62,7 @@
 		</section>
 
 		<section id="creators" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
 						<img src="assets/img/test.png"/>
@@ -118,7 +112,7 @@
 			</div>
 		</section>
 		<section id="thune" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>L'évolution</h2>

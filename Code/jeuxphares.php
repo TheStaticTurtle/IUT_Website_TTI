@@ -1,6 +1,6 @@
 <html lang="fr">
 	<head>
-		<title>TakeTwoInteractive - Nos jeux</title>
+		<title>Take-Two Interactive | Studios</title>
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
