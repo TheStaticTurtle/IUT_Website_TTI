@@ -82,10 +82,10 @@
 							Quand à Dan Houser, il a été scénariste et producteur sur plein de jeux Rockstar, néanmoins il a produit les GTA entre 2001 et 2006 (GTA III à GTA Vice City Stories).
 							<br>
 							Les deux frères ont quand même prêté leur voix à quelques jeux. Par exemple :
-							<br>
-							- Sam Houser : gangster sur GTA: San Andreas et piéton sur GTA IV
-							<br>
-							- Dan Houser : GTA III, GTA: Vice City, GTA IV
+                            <ul>
+                                <li>Sam Houser : gangster sur GTA: San Andreas et piéton sur GTA IV</li>
+                                <li>Dan Houser : GTA III, GTA: Vice City, GTA IV</li>
+                            </ul>
 						</p>					
 					</div>
 				</div>

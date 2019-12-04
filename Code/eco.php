@@ -66,8 +66,8 @@
 		<section id="concurrence" class="">
 			<div class="container2 material-dark">
 				<div class="row">
-					<div class="col col-img">
-						<img src="assets/img/concu.jpg"/>
+					<div class="col col-img  d-flex flex-wrap align-items-center">
+						<img src="assets/img/concu.png"/>
 					</div>
 					<div class="col col-text" style="font-size: 1.25em; text-align: justify;">	
 						<h2>Quelques chiffres :</h2>
@@ -123,7 +123,7 @@
 
 						</p>
 					</div>
-					<div class="col col-img">
+					<div class="col col-img  d-flex flex-wrap align-items-center">
 						<img src="assets/img/graphe.png"/>
 					</div>
 				</div>
