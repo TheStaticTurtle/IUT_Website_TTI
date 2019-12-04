@@ -15,7 +15,7 @@
 
 		<script src="assets/js/main.js"></script>
 	</head>
-	<body data-spy="scroll" data-target="#navbar-main" class="background-image-auto background-image bg3_image">
+	<body data-spy="scroll" data-target="#navbar-main" class="background-image-auto bg3_acceuil_image">
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
