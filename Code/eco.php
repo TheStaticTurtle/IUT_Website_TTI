@@ -15,10 +15,10 @@
 		<header> <?php include("navbar.html"); ?> </header>
 
 		<section id="theinsperationalquote" class="quote-block" style="">
-			<div class="container material-light">
+			<div class="container material-dark">
 				<div class="row">
 					<div class="col">	
-						<p style="font-size: 0.8em;">Ici vous trouverez plus d'informations sur l’entreprise Take-Two Interactive d’un point de vue économique.</p>
+						<p style="font-size: 1.30em;">Ici vous trouverez plus d'informations sur l’entreprise qu'est Take-Two Interactive d’un point de vue économique.</p>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 		</header>
 
 		<section id="games" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>L'entreprise</h2>
@@ -62,7 +62,7 @@
 		</section>
 
 		<section id="creators" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
 						<img src="assets/img/test.png"/>
@@ -112,7 +112,7 @@
 			</div>
 		</section>
 		<section id="thune" class="">
-			<div class="container2 material-light">
+			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-text">	
 						<h2>L'évolution</h2>
