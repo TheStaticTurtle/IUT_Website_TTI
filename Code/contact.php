@@ -8,8 +8,9 @@ $subject = 'Nouvelle demande de contact de ';
 	<head>
         <title>Take-Two Interactive | Contact</title>
 		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <style>
             div {
@@ -21,9 +22,9 @@ $subject = 'Nouvelle demande de contact de ';
 		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<script src="assets/js/main.js"></script>
+
         <style>
-            /* HARD FIX for the footer. Total hour spent fixing it: ~5h */
+            /* HARD FIX for the footer. Total hour spent fixing it: ~7h */
             footer {
                 position: absolute !important;
                 bottom: 0px !important;
@@ -32,7 +33,7 @@ $subject = 'Nouvelle demande de contact de ';
             }
         </style>
     </head>
-	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg3_image">
+	<body data-spy="scroll" data-target="#navbar-main" class="background-image bg_contact">
 
         <header><?php include("navbar.html"); ?></header>
 
