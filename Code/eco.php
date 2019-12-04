@@ -2,14 +2,15 @@
 	<head>
         <title>Take-Two Interactive | Économie</title>
 		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-		<script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-		<script src="assets/js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
 	</head>
 	<body data-spy="scroll" data-target="#navbar-main" class="bg_eco">
 		<header> <?php include("navbar.html"); ?> </header>
