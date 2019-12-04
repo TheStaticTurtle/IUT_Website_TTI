@@ -18,7 +18,9 @@
 			<div class="container material-dark">
 				<div class="row">
 					<div class="col">	
-						<p style="font-size: 1.30em;">Ici vous trouverez plus d'informations sur l’entreprise qu'est Take-Two Interactive d’un point de vue économique.</p>
+						<p style="font-size: 1.30em;">
+							Ici vous trouverez plus d'informations sur l’entreprise qu'est Take-Two Interactive d’un point de vue économique.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -64,7 +66,7 @@
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
-						<img src="assets/img/bg_eco.jpg"/>
+						<img src="assets/img/concu.jpg"/>
 					</div>
 					<div class="col col-text" style="font-size: 1.25em; text-align: justify;">	
 						<h2>Quelques chiffres :</h2>
