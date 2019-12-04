@@ -1,7 +1,10 @@
 <?php
-$to="iut.projtut.taketwointeractive@gmail.com";
-$subject = 'Nouvelle demande de contact de ';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 ?>
 
 <html lang="fr">
@@ -44,8 +47,26 @@ $subject = 'Nouvelle demande de contact de ';
 					<div class="col-12 col-md-8 col-lg">
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
-							    $headers = "From:" . $_POST["email"];
-							    if(mail ($to, $subject . $_POST["email"] , $_POST["message"], $headers)) {
+
+                                $mail = new PHPmailer();
+
+                                $mail->isSMTP();
+                                $mail->Host = 'turtleforgaming.fr';
+                                $mail->SMTPAuth = true;
+                                $mail->Username = 'iut@turtleforgaming.fr';
+                                $mail->Password = 'LeMotDePasseSuperSecuriser'; // Mot de passe juste
+                                $mail->SMTPSecure = 'ssl';
+                                $mail->Port = 465;
+
+                                $mail->setFrom($_POST["email"], $_POST["nom"]);
+                                $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
+
+                                $mail->Subject =  "Demande de contact de: " . $_POST["name"] ;
+                                $mail->Body = $_POST["message"];
+                                $mail->AltBody = "Demande de contact de: " . $_POST["name"];
+
+
+                                if($mail->send()) {
 							        ?>
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
@@ -60,7 +81,7 @@ $subject = 'Nouvelle demande de contact de ';
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
-				                                <h3><i class="fa fa-envelope"></i> Erreur lors de l'envois</h3>
+				                                <h3><i class="fa fa-envelope"></i> Erreur lors de l'envois: <?php echo $mail->ErrorInfo ?></h3>
 				                            </div>
 				                        </div>
 			                        </div>
@@ -76,14 +97,23 @@ $subject = 'Nouvelle demande de contact de ';
 			                            </div>
 			                        </div>
 			                        <div class="card-body p-3">
-			                            <div class="form-group">
-			                                <div class="input-group mb-2 ">
-			                                    <div class="input-group-prepend">
-			                                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-			                                    </div>
-			                                    <input type="email" class="form-control" id="nombre" name="email" placeholder="mon_email@gmail.com" required>
-			                                </div>
-			                            </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-2 ">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                                </div>
+                                                <input type="email" class="form-control" id="mail" name="email" placeholder="mon_email@gmail.com" required>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-2 ">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-user-friends text-info"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom" required>
+                                            </div>
+                                        </div>
 
 			                            <div class="form-group">
 			                                <div class="input-group mb-2 h-75">
