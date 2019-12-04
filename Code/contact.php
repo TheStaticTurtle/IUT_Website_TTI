@@ -1,32 +1,44 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
+
+$mail = new PHPmailer();
+
+$mail->isSMTP();
+$mail->Host = 'turtleforgaming.fr';
+$mail->SMTPAuth = true;
+$mail->Username = 'iut@turtleforgaming.fr';
+$mail->Password = 'LeMotDePasseSuperSecuriser'; // Mot de passe juste
+$mail->SMTPSecure = 'ssl';
+$mail->Port = 465;
+
+$mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
+
 ?>
 
 <html lang="fr">
 	<head>
         <title>Take-Two Interactive | Contact</title>
 		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+
+
         <style>
             div {
                 padding: 0px;
             }
-        </style>
-		<script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-        <style>
             /* HARD FIX for the footer. Total hour spent fixing it: ~7h */
             footer {
                 position: absolute !important;
@@ -48,19 +60,7 @@ require 'PHPMailer/src/SMTP.php';
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
 
-                                $mail = new PHPmailer();
-
-                                $mail->isSMTP();
-                                $mail->Host = 'turtleforgaming.fr';
-                                $mail->SMTPAuth = true;
-                                $mail->Username = 'iut@turtleforgaming.fr';
-                                $mail->Password = 'LeMotDePasseSuperSecuriser'; // Mot de passe juste
-                                $mail->SMTPSecure = 'ssl';
-                                $mail->Port = 465;
-
                                 $mail->setFrom($_POST["email"], $_POST["nom"]);
-                                $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
-
                                 $mail->Subject =  "Demande de contact de: " . $_POST["name"] ;
                                 $mail->Body = $_POST["message"];
                                 $mail->AltBody = "Demande de contact de: " . $_POST["name"];
