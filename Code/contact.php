@@ -60,7 +60,7 @@ $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
 						<?php
                             if(isset($_POST["email"]) && isset($_POST["message"])) {
 
-                                $mail->setFrom($_POST["email"], $_POST["nom"]);
+                                $mail->setFrom($_POST["email"], $_POST["name"]);
                                 $mail->Subject =  "Demande de contact de: " . $_POST["name"] ;
                                 $mail->Body = $_POST["message"];
                                 $mail->AltBody = "Demande de contact de: " . $_POST["name"];
@@ -71,7 +71,7 @@ $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
-				                                <h3><i class="fa fa-envelope"></i> Mail envoyé</h3>
+				                                <h3 class="title"><i class="fa fa-envelope"></i> Mail envoyé</h3>
                                                 <?php header('Refresh: 2; URL=index.php'); ?>
 				                            </div>
 				                        </div>
@@ -81,7 +81,8 @@ $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
 			                        <div class="material-primary rounded-0 ">
 				                        <div class="card-header p-0 ">
 				                            <div class="material-dark text-white text-center py-2">
-				                                <h3><i class="fa fa-envelope"></i> Erreur lors de l'envois: <?php echo $mail->ErrorInfo ?></h3>
+				                                <h3 class="title"><i class="fa fa-envelope"></i> Erreur lors de l'envois: ></h3>
+                                                <p><?php echo $mail->ErrorInfo ?></p>
 				                            </div>
 				                        </div>
 			                        </div>
@@ -93,7 +94,7 @@ $mail->addAddress('iut@turtleforgaming.fr', 'Take-Two Interactive Contact');
 		                        <div class="material-primary rounded-0 ">
 			                        <div class="card-header p-0 ">
 			                            <div class="material-dark text-white text-center py-2">
-			                                <h3><i class="fa fa-envelope"></i> Nous contacter</h3>
+			                                <h3 class="title"><i class="fa fa-envelope"></i> Nous contacter</h3>
 			                            </div>
 			                        </div>
 			                        <div class="card-body p-3">
