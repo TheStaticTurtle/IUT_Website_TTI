@@ -73,11 +73,11 @@
 					<div class="col col-text">	
 						<h2>Un empire boursier</h2>
 						<p class="lead">
-							Une domination logique.
+							Une domination logique et une croissance impressionnante.
 						</p>
 					</div>
 					<div class="col col-img">
-						<img src="https://via.placeholder.com/512x512.png?text=Placeholder"/>
+						<img src="assets/img/bourse.jpg"/>
 					</div>
 				</div>
 			</div>
