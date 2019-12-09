@@ -41,7 +41,7 @@
 				<div class="row">
 					<div class="col col-text">	
 						<h2>L'entreprise</h2>
-						<p class="lead" style="font-size: 1.25em; text-align: justify;">
+						<span class="lead" style="font-size: 1.25em; text-align: justify;">
 							L’entreprise Take-Two Interactive est cotée à la bourse de New-York, c’est une Limited Liability Company (LLC) qui est l'équivalent d’une Société À Responsabilité Limitée (SARL) en France. Ce type d’entreprise bénéficie de quelques avantages comme : 
 							<ul>
 								<li>le choix de son éligibilité à l’imposition,</li>
@@ -54,7 +54,7 @@
 								<li>les frais de renouvellement peuvent être relativement élevés,</li>
 								<li>la structure de l’entreprise peut être difficile à comprendre pour beaucoup.</li>
 							</ul>
-						</p>
+						</span>
 					</div>
 					<div class="col col-img">
 						<img src="assets/img/Take-Two-eco.png"/>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col col-text" style="font-size: 1.25em; text-align: justify;">	
 						<h2>Quelques chiffres</h2>
-						<p>
+						<span class="lead">
 							Take-Two Interactive c’est : 
 							<ul>
 								<li>2 332 millions € de chiffre d’affaires en 2019,</li>
@@ -108,7 +108,7 @@
 									</ul>
 								</li>
 							</ul>
-						</p>					
+						</span>					
 					</div>
 				</div>
 			</div>

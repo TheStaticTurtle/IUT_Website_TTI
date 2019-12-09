@@ -47,7 +47,7 @@
 						<p class="lead" style="font-size: 2em; font-style: italic;">
 							Grand Theft Auto, Red Dead Redemption...
 						</p>
-						<p style="font-size: 1.65em; text-align: justify;">
+						<p style="font-size: 1.29em; text-align: justify;">
 							Éditeur de jeux vidéos, Rockstar Games est un très grand nom dans l'industrie du jeu vidéo.
 							<br>
 							Ils ont été rachetés en 1998 par Take-Two Interactive, leur siège social  situé à New York aux États-Unis.
@@ -102,7 +102,7 @@
 						<p class="lead" style="font-size: 2em; font-style: italic;">
 							NBA 2K, Borderlands, Mafia...
 						</p>
-						<p style="font-size: 1.28em; text-align: justify;">
+						<p style="font-size: 1.29em; text-align: justify;">
 							Fondé le 25 janvier 2005, éditeur de jeux vidéos, 2K s'est lui aussi imposé dans l'industrie du jeu vidéo avec des licences célèbres comme NBA 2K ou encore Borderlands développé par Gearbox.
 							<br>
 							Filiale de Take-Two Interactive, leur siège social étant situé à Novato dans l'état de la Californie aux États-Unis.
@@ -130,7 +130,7 @@
 						<h2 style="font-size: 4em; font-weight: bold;">
 							Les blockbusters de Take-Two
 						</h2>
-						<p style="font-size: 1.2em; text-align: justify;">
+						<p style="font-size: 1.29em; text-align: justify;">
 							La licence Grand Theft Auto a permis à Rockstar de s'approprier un grand renom dans l'univers vidéoludique. GTA V, jeu d'action-aventure en monde ouvert dans une ville fictive inspirée de villes "réelles", est le jeu le plus vendu de Take-Two Interactive et est aussi un succès critique dès sa sortie. Il s'est crée une communauté au fur et à mesure des années grâce à son multijoueur très popularisé.
 							<br>
 							Red Dead Redemption est un jeu d'action-aventure en monde ouvert dans une ambiance "western", lui aussi a pu avoir un très bon accueil du public. Il y a quelques similarités par rapport à GTA qui est lui aussi un jeu en monde ouvert.
