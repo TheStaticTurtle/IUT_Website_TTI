@@ -42,7 +42,11 @@
 					<div class="col col-text">	
 						<h2>Take-Two Interactive</h2>
 						<p class="lead">
-							Un poids lourd dans l'industrie du jeu vidéo.
+							Take-Two Interactive est une entreprise de distribution de jeux vidéo. La société est composer de multiples label de publication; Elle utilise ses label suivant le type de jeux et/ou du public visé .<br>
+							<br>
+							Le siège se trouve à New York, elle possede aussi un siège international au Royaume-Uni. <br>
+							<br>
+							Les studios de développement sont situés dans des villes différentes come San Diego, Vancouver ou Toronto. Ces studios developent plusieurs jeux très connues, comme les séries Grand Theft Auto, Midnight Club, Bioshock et Borderlands. 
 						</p>
 					</div>
 					<div class="col col-img">
