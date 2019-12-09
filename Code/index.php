@@ -39,14 +39,14 @@
 		<section id="taketwo" class="">
 			<div class="container2 material-dark">
 				<div class="row">
-					<div class="col col-text">	
+					<div class="col col-text" style="text-align: justify;">	
 						<h2>Take-Two Interactive</h2>
 						<p class="lead">
-							Take-Two Interactive est une entreprise de distribution de jeux vidéo. La société est composer de multiples label de publication; Elle utilise ses label suivant le type de jeux et/ou du public visé .<br>
+							Take-Two Interactive est une entreprise de distribution de jeux vidéo. La société est composée de multiples labels de publication. Elle utilise ses labels suivant le type de jeux et/ou du public visé.<br>
 							<br>
-							Le siège se trouve à New York, elle possede aussi un siège international au Royaume-Uni. <br>
+							Le siège se trouve à New York, elle possède aussi un siège international au Royaume-Uni.<br>
 							<br>
-							Les studios de développement sont situés dans des villes différentes come San Diego, Vancouver ou Toronto. Ces studios developent plusieurs jeux très connues, comme les séries Grand Theft Auto, Midnight Club, Bioshock et Borderlands. 
+							Les studios de développement sont situés dans des villes différentes comme San Diego, Vancouver ou Toronto. Ces studios développent plusieurs jeux très connus, comme les séries Grand Theft Auto, Midnight Club, Bioshock et Borderlands. 
 						</p>
 					</div>
 					<div class="col col-img">
@@ -56,19 +56,19 @@
 			</div>
 		</section>
 
-		<section id="createur" class="">
+		<section id="ryan" class="">
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
 						<img src="assets/img/RyanBrantNotScary.jpg"/>
 					</div>
-					<div class="col col-text">	
+					<div class="col col-text" style="font-size: 1.30em; text-align: justify;">	
 						<h2>Ryan Brant</h2>
 						<p class="lead">
-							A 24 ans, Ryan Brant rachette en 1993 la companie BMG Interactive (grâce à un investissement de 1.5 millions de dollars de la part de son père) qui deviendera par la suite Take-Two InteractiveIl resta CEO jusqu'en en 2001,<br>
+							À 24 ans, Ryan Brant rachète en 1993 la compagnie BMG Interactive (grâce à un investissement de 1,5 million de dollars de la part de son père) qui deviendra par la suite Take-Two Interactive. Il resta PDG jusqu'en en 2001.<br>
 							<br>
 
-							Malheuresuement, le fondateur de Take-Two Interactive est mort a l'age de 49ans  <br><br>
+							Malheuresuement, le fondateur de Take-Two Interactive est mort à l'âge de 49 ans. Paix à son âme.<br><br>
 
 						</p>				
 					</div>
@@ -78,10 +78,12 @@
 		<section id="empire" class="">
 			<div class="container2 material-dark">
 				<div class="row">
-					<div class="col col-text">	
+					<div class="col col-text" style="text-align: justify;">	
 						<h2>Un empire boursier</h2>
 						<p class="lead">
-							Avec une domination logique et une croissance impressionnante l’entreprise Take-Two Interactive est cotée à la bourse de New-York et possede un chiffre d'afffaire de 2 332 millions € en 2019
+							Avec une domination logique et une croissance impressionnante, l’entreprise Take-Two Interactive est cotée à la bourse de New-York et possède un chiffre d'affaire de 2 332 million d'euros en 2019.
+							<br>
+							Il faut savoir que Take-Two Interactive est un poids lourd dans l'industrie du jeu vidéo grâce à ses jeux phares comme Grand Theft Auto V.
 						</p>
 					</div>
 					<div class="col col-img">

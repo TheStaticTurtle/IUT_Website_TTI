@@ -93,7 +93,7 @@
             </div>
             <div>
                 <p style="text-align: justify; font-size: 1.35em;">
-                    Dans ces deux graphiques, on peut remarquer que malgré que plus d'un quart des participants au sondage n'ont jamais joué à un jeu édité par Take-Two Interactive et que, comme vu plus haut, plus de 46% des participants ne connaissaient pas l'entreprise, plus de 95% d'entre eux connaissent leur license la plus populaire « Grand Theft Auto ».
+                    Dans ces deux graphiques, on peut remarquer que malgré que plus d'un quart des participants au sondage n'ont jamais joué à un jeu édité par Take-Two Interactive et que, comme vu plus haut, plus de 46% des participants ne connaissaient pas l'entreprise, plus de 95% d'entre eux connaissent leur licence la plus populaire « Grand Theft Auto ».
                 </p>
             </div>
         </div>
@@ -103,7 +103,7 @@
         <div class="container2 material-dark">
             <h2>Grand Theft Auto</h2>
             <p style="text-align: justify; font-size: 1.35em;">
-                Nous avons également demandé aux participant si ils avaient déjà joué à un jeu de la license « Grand Theft Auto » et 84% des gens ayant répondu au sondage ont répondu oui. On a également demandé à quel(s) épisode(s) ils avaient joué :
+                Nous avons également demandé aux participants si ils avaient déjà joué à un jeu de la licence « Grand Theft Auto » et 84% des gens ayant répondu au sondage ont répondu oui. On a également demandé à quel(s) épisode(s) ils avaient joué :
             </p>
             <img src="assets/img/SONDAGE_5.jpg" alt="Résultat sondage jeux GTA"  id = "whichGTA"  class="pointer mx-auto d-block mb-3">
             <?php
