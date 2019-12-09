@@ -1,15 +1,16 @@
 <html lang="fr">
 	<head>
-		<title>TakeTwoInteractive - Nos jeux</title>
+		<title>Take-Two Interactive | Studios</title>
 		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-		<script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-		<script src="assets/js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
 	</head>
 	<body data-spy="scroll" data-target="#navbar-main" class="bg_games">
 		<header> <?php include("navbar.html"); ?> </header>
@@ -81,10 +82,10 @@
 							Quand à Dan Houser, il a été scénariste et producteur sur plein de jeux Rockstar, néanmoins il a produit les GTA entre 2001 et 2006 (GTA III à GTA Vice City Stories).
 							<br>
 							Les deux frères ont quand même prêté leur voix à quelques jeux. Par exemple :
-							<br>
-							- Sam Houser : gangster sur GTA: San Andreas et piéton sur GTA IV
-							<br>
-							- Dan Houser : GTA III, GTA: Vice City, GTA IV
+                            <ul>
+                                <li>Sam Houser : gangster sur GTA: San Andreas et piéton sur GTA IV</li>
+                                <li>Dan Houser : GTA III, GTA: Vice City, GTA IV</li>
+                            </ul>
 						</p>					
 					</div>
 				</div>
@@ -127,7 +128,7 @@
 					</div>
 					<div class="col col-text">
 						<h2 style="font-size: 4em; font-weight: bold;">
-							Les créateurs de Rockstar Games
+							Les blockbusters de Take-Two
 						</h2>
 						<p style="font-size: 1.2em; text-align: justify;">
 							La licence Grand Theft Auto a permis à Rockstar de s'approprier un grand renom dans l'univers vidéoludique. GTA V, jeu d'action-aventure en monde ouvert dans une ville fictive inspirée de villes "réelles", est le jeu le plus vendu de Take-Two Interactive et est aussi un succès critique dès sa sortie. Il s'est crée une communauté au fur et à mesure des années grâce à son multijoueur très popularisé.
