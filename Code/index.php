@@ -62,7 +62,7 @@
 					<div class="col col-img">
 						<img src="assets/img/RyanBrantNotScary.jpg"/>
 					</div>
-					<div class="col col-text" style="font-size: 1.30em; text-align: justify;">	
+					<div class="col col-text text-justify">	
 						<h2>Ryan Brant</h2>
 						<p class="lead">
 							À 24 ans, Ryan Brant rachète en 1993 la compagnie BMG Interactive (grâce à un investissement de 1,5 million de dollars de la part de son père) qui deviendra par la suite Take-Two Interactive. Il resta PDG jusqu'en en 2001.<br>
