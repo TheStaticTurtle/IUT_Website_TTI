@@ -65,7 +65,11 @@
 					<div class="col col-text">	
 						<h2>Ryan Brant</h2>
 						<p class="lead">
-							Malheuresuement mort a l'age de 49ans le fondateur de Take-Two Interactive -- INSERT TEXT HERE --
+							A 24 ans, Ryan Brant rachette en 1993 la companie BMG Interactive (grâce à un investissement de 1.5 millions de dollars de la part de son père) qui deviendera par la suite Take-Two InteractiveIl resta CEO jusqu'en en 2001,<br>
+							<br>
+
+							Malheuresuement, le fondateur de Take-Two Interactive est mort a l'age de 49ans  <br><br>
+
 						</p>				
 					</div>
 				</div>
