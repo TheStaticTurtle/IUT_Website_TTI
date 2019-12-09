@@ -70,7 +70,7 @@
 						<img src="assets/img/concu.png"/>
 					</div>
 					<div class="col col-text" style="font-size: 1.25em; text-align: justify;">	
-						<h2>Quelques chiffres :</h2>
+						<h2>Quelques chiffres</h2>
 						<p>
 							Take-Two Interactive c’est : 
 							<ul>

@@ -14,8 +14,8 @@ function scrollto(argument) {
 
 window.addEventListener('scroll', function() {
 	var mid = document.getElementsByClassName("background-image")[0];
-	var bg1_off = 1080*1;
-	var bg2_off = 1080*2;
+	var bg1_off = 1080*0.60;
+	var bg2_off = 1080*1.2	;
 	if (document.body.scrollTop > bg1_off || document.documentElement.scrollTop > bg1_off) {
 		if($( "body" ).hasClass( "background-image-auto" )) {
 

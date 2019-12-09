@@ -56,12 +56,12 @@
 			<div class="container2 material-dark">
 				<div class="row">
 					<div class="col col-img">
-						<img src="assets/img/RyanBrant.jpg"/>
+						<img src="assets/img/RyanBrantNotScary.jpg"/>
 					</div>
 					<div class="col col-text">	
 						<h2>Ryan Brant</h2>
 						<p class="lead">
-							Le fondateur de Take-Two Interactive.
+							Malheuresuement mort a l'age de 49ans le fondateur de Take-Two Interactive -- INSERT TEXT HERE --
 						</p>				
 					</div>
 				</div>
@@ -73,7 +73,7 @@
 					<div class="col col-text">	
 						<h2>Un empire boursier</h2>
 						<p class="lead">
-							Une domination logique et une croissance impressionnante.
+							Avec une domination logique et une croissance impressionnante l’entreprise Take-Two Interactive est cotée à la bourse de New-York et possede un chiffre d'afffaire de 2 332 millions € en 2019
 						</p>
 					</div>
 					<div class="col col-img">
